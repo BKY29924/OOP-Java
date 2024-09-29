@@ -1,0 +1,42 @@
+Trả lời câu hỏi 6.1:
+1.	Nếu người dùng chọn “Cancel”, thông báo “You’ve chosen: No” sẽ xuất hiện vì đoạn mã chỉ kiểm tra tùy chọn "Yes". Khi chọn "Cancel", giá trị trả về không bằng JOptionPane.YES_OPTION, dẫn đến việc mã mặc định trả về "No" cho các tùy chọn khác, bao gồm cả "Cancel". Do đó, người dùng thấy thông báo "You’ve chosen: No" dù đã chọn "Cancel".
+2.	Để tùy chỉnh các tùy chọn cho người dùng trong JOptionPane, chúng ta có thể sử dụng phương thức showOptionDialog. 
+Ví dụ: 
+
+--------Với option "Yes" và "No"--------
+
+import javax.swing.*;
+
+public class CustomOptionExample {
+    public static void main(String[] args) {
+        String[] options = {"Yes", "No"};
+        int choice = JOptionPane.showOptionDialog(null, "Do you want to proceed?",
+                "Choose an option", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE,
+                null, options, options[0]);
+
+        if (choice == 0) { // "Yes" is chosen
+            JOptionPane.showMessageDialog(null, "You chose Yes.");
+        } else {
+            JOptionPane.showMessageDialog(null, "You chose No.");
+        }
+    }
+}
+
+
+--------Với option "I do" và "I don’t" --------
+import javax.swing.*;
+
+public class CustomOptionExample {
+    public static void main(String[] args) {
+        String[] options = {"I do", "I don’t"};
+        int choice = JOptionPane.showOptionDialog(null, "Do you agree?",
+                "Choose an option", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE,
+                null, options, options[0]);
+
+        if (choice == 0) { // "I do" is chosen
+            JOptionPane.showMessageDialog(null, "You chose I do.");
+        } else {
+            JOptionPane.showMessageDialog(null, "You chose I don’t.");
+        }
+    }
+}
