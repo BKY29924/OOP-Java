@@ -1,0 +1,6 @@
+8. Câu hỏi: Nếu bạn tạo phương thức khởi tạo DVD theo tiêu đề rồi tạo phương thức khởi 
+tạo DVD theo thể loại thì Java có cho phép điều đó không? 
+
+Trả lời: Java hoàn toàn cho phép người dùng tạo nhiều phương thức constructor cho cùng 1 class,
+miễn là chúng khác loại tham số truyền vào để giúp Java phân biệt các phương thức. Đây
+còn được gọi là Constructor Overloading.
