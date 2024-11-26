@@ -1,0 +1,7 @@
+Trả lời câu hỏi:
+Mình thích sử dung varargs hơn vì:
+- Gọn gàng hơn khi gọi phương thức: Không cần tạo mảng trước, chỉ cần truyền các đối số trực tiếp.
+- Linh hoạt hơn vì hỗ trợ một số lượng tham số bất kỳ.
+
+Trả lời: Java là ngôn ngữ lập trình "Pass by Value". Trong Java, khi bạn truyền parameter vào method, giá trị của parameter được sao chép và truyền vào phương thức. Điều này có nghĩa là nếu bạn thay đổi.
+giá trị của parameter bên trong method, giá trị của biến gọi method không bị ảnh hưởng.
