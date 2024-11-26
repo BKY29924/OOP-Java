@@ -1,3 +1,6 @@
+package hust.soict.vp.test.cart;
+import hust.soict.vp.aims.cart.Cart; // Import lớp Cart
+import hust.soict.vp.aims.disc.DigitalVideoDisc; // Import lớp DigitalVideoDisc
 class CartTest {
     public static void main(String[] args) {
         // Tạo các đĩa DVD mẫu

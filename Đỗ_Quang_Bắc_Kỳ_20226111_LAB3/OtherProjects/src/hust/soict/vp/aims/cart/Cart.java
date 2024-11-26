@@ -1,4 +1,6 @@
 // Do Quang Bac Ky - 20226111
+package hust.soict.vp.aims.cart;
+import hust.soict.vp.aims.disc.DigitalVideoDisc;
 public class Cart {
     public static final int MAX_NUMBERS_ORDERED = 20; // Giới hạn số lượng đĩa tối đa có thể thêm vào giỏ
     private static final int NOT_FOUND = -1; // Hằng số biểu thị không tìm thấy đĩa

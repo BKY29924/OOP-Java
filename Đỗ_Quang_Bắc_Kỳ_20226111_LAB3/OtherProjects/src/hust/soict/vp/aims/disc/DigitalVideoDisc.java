@@ -1,3 +1,4 @@
+package hust.soict.vp.aims.disc;
 public class DigitalVideoDisc {
     // Khai báo các thuộc tính của class
     private static int nbDigitalVideoDiscs = 0;

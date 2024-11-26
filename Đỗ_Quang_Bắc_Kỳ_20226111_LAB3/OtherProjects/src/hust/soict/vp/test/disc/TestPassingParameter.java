@@ -1,5 +1,8 @@
 // Đỗ Quang Bắc Kỳ
 // 20226111
+package hust.soict.vp.test.disc;
+import hust.soict.vp.aims.disc.DigitalVideoDisc;
+
 public class TestPassingParameter {
     public static void main(String[] args) {
         DigitalVideoDisc jungleDVD = new DigitalVideoDisc("Jungle");

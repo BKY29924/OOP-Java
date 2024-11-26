@@ -1,5 +1,7 @@
-import hust.soict.dsai.aims.store.Store;
 
+package hust.soict.vp.test.store;
+import hust.soict.vp.aims.disc.DigitalVideoDisc;
+import hust.soict.vp.aims.store.Store;
 public class StoreTest {
     public static void main(String[] args) {
         // Tạo các đĩa DVD mẫu
