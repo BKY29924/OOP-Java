@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+C:\Users\Hung\Documents\GitHub\IT3103.744528.2024.1.20226104.NguyenDangPhucHung\AimsProject\.metadata\.plugins\org.eclipse.jdt.core
