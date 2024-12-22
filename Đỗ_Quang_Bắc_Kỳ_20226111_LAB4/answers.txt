@@ -1,0 +1,50 @@
+Đỗ Quang Bắc Kỳ
+20226111
+Question: Alternatively, to compare items in the cart, instead of using Comparator, we can use the Comparable interface and override the compareTo()method. You can refer to the Java docs to see the information of this interface. 
+Suppose we are taking this Comparable interface approach.
+-	What class should implement the Comparable interface?
+-	In those classes, how should you implement the compareTo()method be to reflect the ordering that we want?
+-	Can we have two ordering rules of the item (by title then cost and by cost then title) if we use this Comparable interface approach?
+-	Suppose the DVDs has a different ordering rule from the other media types, that is by title, then decreasing length, then cost. How would you modify your code to allow this?
+
+1. Lớp nên triển khai giao diện Comparable là lớp chứa các đối tượng cần so sánh, trong trường hợp này là abstract class “Media”. Điều này giúp các lớp con như Book, DigitalVideoDisc, và CompactDisc kế thừa khả năng so sánh từ lớp Media. Nếu cần tùy chỉnh thêm logic so sánh cho từng loại đối tượng cụ thể, ta cũng có thể override phương thức compareTo() trong các lớp con này.
+
+2.Ví dụ sắp xếp theo title sau đó là cost:
+@Override 
+public int compareTo(Media other) { 
+	if (!this.getTitle().equals(other.getTitle())) { 
+		return this.getTitle().compareTo(other.getTitle()); 
+	} else { 
+		return Double.compare(this.getCost(), other.getCost()); 
+	} 
+} 
+
+3.Không, với giao diện Comparable, chúng ta chỉ có thể định nghĩa một quy tắc sắp xếp duy nhất cho mỗi lớp. Điều này là do phương thức compareTo() chỉ cho phép triển khai một logic so sánh duy nhất. Nếu chúng ta cần có nhiều quy tắc sắp xếp (ví dụ, sắp xếp theo tiêu đề rồi đến giá, và sắp xếp theo giá rồi đến tiêu đề), chúng ta sẽ phải sử dụng giao diện Comparator, nơi có thể định nghĩa nhiều phương thức so sánh với các quy tắc khác nhau
+
+@Override
+public int compareTo(Media other, boolean sortByTitleFirst) {
+    if (sortByTitleFirst) {
+        // So sánh theo title rồi đến cost
+        int titleComparison = this.title.compareTo(other.title);
+        if (titleComparison != 0) return titleComparison;
+        return Double.compare(this.cost, other.cost);
+    } else {
+        // So sánh theo cost rồi đến title
+        int costComparison = Double.compare(this.cost, other.cost);
+        if (costComparison != 0) return costComparison;
+        return this.title.compareTo(other.title);
+    }
+}
+
+4.Tạo một lớp riêng cho DVD và triển khai phương thức compareTo() trong lớp DVD
+
+@Override
+    public int compareTo(DVD other) {
+        int titleComparison = this.getTitle().compareTo(other.getTitle());
+        
+        if (titleComparison != 0) {
+            return titleComparison;
+        }
+        
+        return Integer.compare(other.getLength(), this.getLength());
+    }
