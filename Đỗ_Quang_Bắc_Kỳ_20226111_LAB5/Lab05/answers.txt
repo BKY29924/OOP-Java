@@ -1,0 +1,5 @@
+Câu hỏi:
+	Điều gì xảy ra nếu lớp Aims không được cập nhật để bắt ngoại lệ khi phương thức play() được gọi?
+
+Trả lời:
+	Ngoại lệ sẽ lan truyền trên ngăn xếp lời gọi (call stack) đến khi nào gặp một khối try-catch hoặc gặp main(). Nếu main() không bắt ngoại lệ thì chương trình kết thúc ngay lập tức và console hiển thị stack trace. Chương trình trở nên kém hoàn thiện và khó sử dụng.
