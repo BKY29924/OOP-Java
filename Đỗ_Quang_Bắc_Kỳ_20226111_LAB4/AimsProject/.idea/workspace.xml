@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="170281d7-7343-45b3-881e-3be0e0748af9" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2peTpKMFYSOBQmejHbeMWomee8I" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Aims.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Main11.executor": "Run",
+    "Application.TestPolymorphism.executor": "Run",
+    "Application.hust.soict.vp.test.TestPolymorphism.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/OOP_Lab4",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OOP_Lab4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OOP_Lab4" />
+      <recent name="C:\OOP_Lab4\AimsProject\src" />
+      <recent name="C:\OOP_Lab4\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.hust.soict.vp.test.TestPolymorphism">
+    <configuration name="Aims" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hust.soict.vp.aims.Aims" />
+      <module name="OOP_Lab4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hust.soict.vp.aims.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="OOP_Lab4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main11" />
+      <module name="OOP_Lab4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPolymorphism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hust.soict.vp.test.polymorphism.TestPolymorphism" />
+      <module name="OOP_Lab4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hust.soict.vp.test.polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hust.soict.vp.test.TestPolymorphism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hust.soict.vp.test.TestPolymorphism" />
+      <module name="OOP_Lab4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hust.soict.vp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.hust.soict.vp.test.TestPolymorphism" />
+        <item itemvalue="Application.TestPolymorphism" />
+        <item itemvalue="Application.Aims" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main11" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="170281d7-7343-45b3-881e-3be0e0748af9" name="Changes" comment="" />
+      <created>1733125725137</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733125725137</updated>
+    </task>
+    <servers />
+  </component>
+</project>
